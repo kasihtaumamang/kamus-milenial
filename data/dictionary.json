@@ -390,5 +390,165 @@
     "contoh": "Jangan SKSD deh, kita kan nggak kenal!",
     "kategori": "singkatan",
     "era": "2000s"
+  },
+  {
+    "id": 50,
+    "kata": "kamu lagi apa",
+    "frasa": "kamu lagi apa?",
+    "terjemahan": "u lgi pa?",
+    "definisi": "Frasa tanya untuk menanyakan aktivitas seseorang saat ini. Dalam bahasa gaul disingkat menjadi 'u lgi pa?'.",
+    "contoh": "Formal: 'kamu lagi apa?' - Gaul: 'u lgi pa?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 51,
+    "kata": "apa kabar",
+    "frasa": "apa kabar?",
+    "terjemahan": "pa kbr?",
+    "definisi": "Frasa salam untuk menanyakan keadaan seseorang. Dalam bahasa gaul disingkat menjadi 'pa kbr?'.",
+    "contoh": "Formal: 'apa kabar?' - Gaul: 'pa kbr?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 52,
+    "kata": "kamu dimana",
+    "frasa": "kamu dimana?",
+    "terjemahan": "u dmn?",
+    "definisi": "Frasa tanya untuk menanyakan lokasi seseorang. Dalam bahasa gaul disingkat menjadi 'u dmn?'.",
+    "contoh": "Formal: 'kamu dimana?' - Gaul: 'u dmn?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 53,
+    "kata": "sudah makan",
+    "frasa": "sudah makan?",
+    "terjemahan": "udh mkn?",
+    "definisi": "Frasa tanya untuk menanyakan apakah seseorang sudah makan. Dalam bahasa gaul disingkat menjadi 'udh mkn?'.",
+    "contoh": "Formal: 'sudah makan?' - Gaul: 'udh mkn?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 54,
+    "kata": "lagi ngapain",
+    "frasa": "lagi ngapain?",
+    "terjemahan": "lg ngpn?",
+    "definisi": "Frasa tanya untuk menanyakan aktivitas seseorang. Dalam bahasa gaul disingkat menjadi 'lg ngpn?'.",
+    "contoh": "Formal: 'lagi ngapain?' - Gaul: 'lg ngpn?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 55,
+    "kata": "mau kemana",
+    "frasa": "mau kemana?",
+    "terjemahan": "mw kmn?",
+    "definisi": "Frasa tanya untuk menanyakan tujuan seseorang. Dalam bahasa gaul disingkat menjadi 'mw kmn?'.",
+    "contoh": "Formal: 'mau kemana?' - Gaul: 'mw kmn?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 56,
+    "kata": "aku sayang kamu",
+    "frasa": "aku sayang kamu",
+    "terjemahan": "ak syg km",
+    "definisi": "Frasa untuk mengungkapkan rasa sayang. Dalam bahasa gaul disingkat menjadi 'ak syg km'.",
+    "contoh": "Formal: 'aku sayang kamu' - Gaul: 'ak syg km'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 57,
+    "kata": "gimana kabarnya",
+    "frasa": "gimana kabarnya?",
+    "terjemahan": "gmn kbrny?",
+    "definisi": "Frasa tanya untuk menanyakan keadaan seseorang. Dalam bahasa gaul disingkat menjadi 'gmn kbrny?'.",
+    "contoh": "Formal: 'gimana kabarnya?' - Gaul: 'gmn kbrny?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 58,
+    "kata": "aku kangen kamu",
+    "frasa": "aku kangen kamu",
+    "terjemahan": "ak kngen km",
+    "definisi": "Frasa untuk mengungkapkan rasa rindu. Dalam bahasa gaul disingkat menjadi 'ak kngen km'.",
+    "contoh": "Formal: 'aku kangen kamu' - Gaul: 'ak kngen km'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 59,
+    "kata": "kapan ketemu",
+    "frasa": "kapan ketemu?",
+    "terjemahan": "kpn ktmu?",
+    "definisi": "Frasa tanya untuk menanyakan waktu pertemuan. Dalam bahasa gaul disingkat menjadi 'kpn ktmu?'.",
+    "contoh": "Formal: 'kapan ketemu?' - Gaul: 'kpn ktmu?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 60,
+    "kata": "lagi sibuk apa",
+    "frasa": "lagi sibuk apa?",
+    "terjemahan": "lg sbk pa?",
+    "definisi": "Frasa tanya untuk menanyakan kesibukan seseorang. Dalam bahasa gaul disingkat menjadi 'lg sbk pa?'.",
+    "contoh": "Formal: 'lagi sibuk apa?' - Gaul: 'lg sbk pa?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 61,
+    "kata": "sudah sampai rumah",
+    "frasa": "sudah sampai rumah?",
+    "terjemahan": "udh smpe rmh?",
+    "definisi": "Frasa tanya untuk menanyakan apakah seseorang sudah sampai di rumah. Dalam bahasa gaul disingkat menjadi 'udh smpe rmh?'.",
+    "contoh": "Formal: 'sudah sampai rumah?' - Gaul: 'udh smpe rmh?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 62,
+    "kata": "mau makan apa",
+    "frasa": "mau makan apa?",
+    "terjemahan": "mw mkn pa?",
+    "definisi": "Frasa tanya untuk menanyakan pilihan makanan. Dalam bahasa gaul disingkat menjadi 'mw mkn pa?'.",
+    "contoh": "Formal: 'mau makan apa?' - Gaul: 'mw mkn pa?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 63,
+    "kata": "sedang apa sekarang",
+    "frasa": "sedang apa sekarang?",
+    "terjemahan": "sdg pa skrg?",
+    "definisi": "Frasa tanya untuk menanyakan aktivitas seseorang saat ini. Dalam bahasa gaul disingkat menjadi 'sdg pa skrg?'.",
+    "contoh": "Formal: 'sedang apa sekarang?' - Gaul: 'sdg pa skrg?'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 64,
+    "kata": "terima kasih banyak",
+    "frasa": "terima kasih banyak",
+    "terjemahan": "mksh bnyk",
+    "definisi": "Frasa untuk mengucapkan terima kasih. Dalam bahasa gaul disingkat menjadi 'mksh bnyk'.",
+    "contoh": "Formal: 'terima kasih banyak' - Gaul: 'mksh bnyk'",
+    "kategori": "frasa",
+    "era": "2000s"
+  },
+  {
+    "id": 65,
+    "kata": "sama-sama",
+    "frasa": "sama-sama",
+    "terjemahan": "sm2",
+    "definisi": "Frasa untuk membalas ucapan terima kasih. Dalam bahasa gaul disingkat menjadi 'sm2'.",
+    "contoh": "Formal: 'sama-sama' - Gaul: 'sm2'",
+    "kategori": "frasa",
+    "era": "2000s"
   }
 ]

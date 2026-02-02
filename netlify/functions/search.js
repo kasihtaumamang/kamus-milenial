@@ -41,12 +41,14 @@ exports.handler = async (event, context) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     const words = JSON.parse(data);
 
-    // Search in kata, definisi, and contoh fields
+    // Search in kata, definisi, contoh, frasa, and terjemahan fields
     const searchTerm = query.toLowerCase();
     const results = words.filter(word => 
       word.kata.toLowerCase().includes(searchTerm) ||
       word.definisi.toLowerCase().includes(searchTerm) ||
-      word.contoh.toLowerCase().includes(searchTerm)
+      word.contoh.toLowerCase().includes(searchTerm) ||
+      (word.frasa && word.frasa.toLowerCase().includes(searchTerm)) ||
+      (word.terjemahan && word.terjemahan.toLowerCase().includes(searchTerm))
     );
 
     return {
