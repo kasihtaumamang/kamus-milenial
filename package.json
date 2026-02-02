@@ -1,0 +1,24 @@
+{
+  "name": "kamus-milenial",
+  "version": "1.0.0",
+  "description": "Kamus Bahasa Gaul Era 2000-an - Classic Indonesian Slang Dictionary",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "kamus",
+    "dictionary",
+    "indonesian",
+    "slang",
+    "2000s",
+    "milenial"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}

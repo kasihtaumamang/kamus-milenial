@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "kata": "alay",
+    "definisi": "Anak Layangan atau Anak Lebay. Istilah untuk orang yang berpenampilan atau bersikap norak, lebay, dan berlebihan.",
+    "contoh": "Gaya rambutnya alay banget deh!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 2,
+    "kata": "lebay",
+    "definisi": "Berlebihan dalam bersikap atau berekspresi. Berasal dari kata 'lebih'.",
+    "contoh": "Jangan lebay dong, cuma dimarahin dikit aja kok nangis.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 3,
+    "kata": "baper",
+    "definisi": "Bawa Perasaan. Terlalu larut dalam perasaan atau mudah tersinggung.",
+    "contoh": "Jangan baper ya, cuma bercanda kok.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 4,
+    "kata": "jones",
+    "definisi": "Jomblo Ngenes. Istilah untuk orang yang masih jomblo dan merasa sedih karenanya.",
+    "contoh": "Aku masih jones nih, kapan ya dapet pacar?",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 5,
+    "kata": "garing",
+    "definisi": "Tidak lucu, hambar, atau membosankan. Biasa digunakan untuk mengomentari lelucon yang tidak lucu.",
+    "contoh": "Leluconnya garing banget deh.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 6,
+    "kata": "galau",
+    "definisi": "Bingung, gelisah, atau sedang mengalami masalah perasaan yang membuat tidak tenang.",
+    "contoh": "Aku lagi galau mikirin masa depan.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 7,
+    "kata": "jayus",
+    "definisi": "Tidak lucu tapi tetap membuat tertawa karena terlalu tidak lucunya.",
+    "contoh": "Candaan lo jayus banget sih!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 8,
+    "kata": "kepo",
+    "definisi": "Knowing Every Particular Object. Suka ingin tahu urusan orang lain, terlalu ingin tahu.",
+    "contoh": "Jangan kepo urusan orang dong!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 9,
+    "kata": "sotoy",
+    "definisi": "Sok Tahu. Merasa tahu padahal tidak tahu atau sok pintar.",
+    "contoh": "Jangan sotoy deh, kamu kan nggak ngerti!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 10,
+    "kata": "bete",
+    "definisi": "Bad Tempered. Merasa kesal, tidak nyaman, atau tidak mood.",
+    "contoh": "Aku lagi bete nih, jangan ganggu dulu ya.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 11,
+    "kata": "geje",
+    "definisi": "Gak Jelas. Tidak jelas maksudnya, aneh, atau tidak berkualitas.",
+    "contoh": "Film ini geje banget alurnya.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 12,
+    "kata": "bokis",
+    "definisi": "Body Kiss. Ciuman di tubuh, istilah yang populer di era 2000-an.",
+    "contoh": "Mereka ketahuan bokis di belakang sekolah.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 13,
+    "kata": "cemungudh",
+    "definisi": "Semangat. Kata penyemangat yang diubah ejaannya dengan gaya alay.",
+    "contoh": "Cemungudh ya ujiannya!",
+    "kategori": "interjeksi",
+    "era": "2000s"
+  },
+  {
+    "id": 14,
+    "kata": "php",
+    "definisi": "Pemberi Harapan Palsu. Memberi harapan kepada seseorang tapi tidak menepatinya.",
+    "contoh": "Jangan PHP dong, kalau nggak suka ya bilang aja!",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 15,
+    "kata": "btt",
+    "definisi": "Back To Topic. Kembali ke topik pembicaraan awal.",
+    "contoh": "Udah BTT yuk, jangan ngomongin yang lain terus.",
+    "kategori": "singkatan",
+    "era": "2000s"
+  },
+  {
+    "id": 16,
+    "kata": "pdkt",
+    "definisi": "Pendekatan. Proses mendekati seseorang yang disukai dengan maksud menjalin hubungan romantis.",
+    "contoh": "Dia lagi PDKT sama temen aku.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 17,
+    "kata": "lebih",
+    "definisi": "Kata untuk mendeskripsikan sesuatu yang berlebihan atau terlalu banyak.",
+    "contoh": "Dia tuh orangnya lebih banget deh.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 18,
+    "kata": "gombal",
+    "definisi": "Rayuan yang berlebihan dan dibuat-buat untuk merayu seseorang.",
+    "contoh": "Jangan percaya sama gombalannya!",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 19,
+    "kata": "bucin",
+    "definisi": "Budak Cinta. Terlalu menuruti kemauan pasangan, rela melakukan apapun karena cinta.",
+    "contoh": "Dia tuh bucin banget sama pacarnya.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 20,
+    "kata": "clbk",
+    "definisi": "Cinta Lama Bersemi Kembali. Kembali berhubungan dengan mantan pacar.",
+    "contoh": "Mereka CLBK lagi setelah putus 2 tahun.",
+    "kategori": "singkatan",
+    "era": "2000s"
+  },
+  {
+    "id": 21,
+    "kata": "bts",
+    "definisi": "Baca Tanda-tanda. Digunakan untuk menyuruh seseorang membaca situasi atau kondisi.",
+    "contoh": "BTS dong, dia udah nggak suka sama kamu!",
+    "kategori": "singkatan",
+    "era": "2000s"
+  },
+  {
+    "id": 22,
+    "kata": "tmc",
+    "definisi": "Terlalu Mencintai Cewek. Istilah untuk cowok yang terlalu perhatian pada cewek.",
+    "contoh": "Dia TMC banget sih, jadi kayak nggak ada harga diri.",
+    "kategori": "singkatan",
+    "era": "2000s"
+  },
+  {
+    "id": 23,
+    "kata": "gebetan",
+    "definisi": "Orang yang sedang didekati atau disukai untuk dijadikan pacar.",
+    "contoh": "Gebetanku balas chat aku, seneng banget!",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 24,
+    "kata": "mantan",
+    "definisi": "Bekas pacar atau orang yang pernah berhubungan asmara di masa lalu.",
+    "contoh": "Mantanku sekarang udah punya pacar baru.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 25,
+    "kata": "badung",
+    "definisi": "Nakal atau bandel, sering digunakan untuk menggambarkan anak yang tidak nurut.",
+    "contoh": "Anaknya badung banget, nggak mau dibilangin.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 26,
+    "kata": "kece",
+    "definisi": "Keren atau bagus. Digunakan untuk memuji penampilan atau sesuatu yang menarik.",
+    "contoh": "Bajunya kece banget!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 27,
+    "kata": "curcol",
+    "definisi": "Curahan Hati Colongan. Menceritakan masalah pribadi secara spontan.",
+    "contoh": "Maaf ya tadi curcol, lagi banyak masalah nih.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 28,
+    "kata": "ribet",
+    "definisi": "Rumit atau merepotkan. Menggambarkan sesuatu yang susah atau membingungkan.",
+    "contoh": "Jangan dibikin ribet dong, simple aja!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 29,
+    "kata": "ngambek",
+    "definisi": "Merajuk atau marah-marah kecil karena tidak senang dengan sesuatu.",
+    "contoh": "Jangan ngambek dong, nanti aku beliin es krim deh.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 30,
+    "kata": "cabe-cabean",
+    "definisi": "Sebutan untuk perempuan yang berpakaian terbuka atau dipandang norak.",
+    "contoh": "Cara dandanannya kayak cabe-cabean.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 31,
+    "kata": "ganteng",
+    "definisi": "Tampan atau menarik secara fisik untuk laki-laki.",
+    "contoh": "Pacar kamu ganteng banget!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 32,
+    "kata": "cantik",
+    "definisi": "Indah atau menarik secara fisik untuk perempuan.",
+    "contoh": "Dia cantik banget, pantas banyak yang suka.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 33,
+    "kata": "naksir",
+    "definisi": "Mulai tertarik atau jatuh cinta pada seseorang.",
+    "contoh": "Aku naksir sama dia dari pertama kali ketemu.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 34,
+    "kata": "mager",
+    "definisi": "Malas Gerak. Merasa sangat malas untuk melakukan aktivitas fisik.",
+    "contoh": "Hari Minggu bikin mager, pengennya tiduran aja.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 35,
+    "kata": "ngenes",
+    "definisi": "Menyedihkan atau kasihan. Menggambarkan kondisi yang memprihatinkan.",
+    "contoh": "Nasibnya ngenes banget ya.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 36,
+    "kata": "bokep",
+    "definisi": "Film Biru atau konten dewasa. Singkatan dari Blue Film dalam bahasa Jawa.",
+    "contoh": "Jangan nonton bokep, nggak baik!",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 37,
+    "kata": "nongkrong",
+    "definisi": "Berkumpul atau menghabiskan waktu bersama teman di suatu tempat.",
+    "contoh": "Yuk nongkrong di cafe!",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 38,
+    "kata": "gaul",
+    "definisi": "Pergaulan atau berhubungan sosial dengan orang lain. Juga berarti trendi atau kekinian.",
+    "contoh": "Dia orangnya gaul, kenal sama banyak orang.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 39,
+    "kata": "jaman",
+    "definisi": "Zaman atau periode waktu tertentu.",
+    "contoh": "Jaman sekarang udah canggih banget.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 40,
+    "kata": "ciyus",
+    "definisi": "Serius. Kata serius yang diplesetkan dengan gaya alay.",
+    "contoh": "Ciyus lo bilang gitu? Miapah?",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 41,
+    "kata": "miapah",
+    "definisi": "Mengapa atau kenapa. Kata tanya yang diplesetkan dengan gaya alay.",
+    "contoh": "Miapah kamu marah?",
+    "kategori": "adverbia",
+    "era": "2000s"
+  },
+  {
+    "id": 42,
+    "kata": "kamsudh",
+    "definisi": "Maksud. Kata maksud yang diplesetkan dengan gaya alay.",
+    "contoh": "Kamsudh lo apa sih?",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 43,
+    "kata": "pren",
+    "definisi": "Friend atau teman. Cara menyebut teman dengan gaya gaul.",
+    "contoh": "Pren, jangan lupa dateng ya!",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 44,
+    "kata": "anjay",
+    "definisi": "Ekspresi kaget, kagum, atau terkejut dengan sesuatu.",
+    "contoh": "Anjay, keren banget mobilnya!",
+    "kategori": "interjeksi",
+    "era": "2000s"
+  },
+  {
+    "id": 45,
+    "kata": "woles",
+    "definisi": "Slow atau santai. Tidak terburu-buru atau tetap tenang.",
+    "contoh": "Woles aja, masih ada waktu kok.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 46,
+    "kata": "santuy",
+    "definisi": "Santai. Bersikap tenang dan tidak tegang.",
+    "contoh": "Santuy aja, jangan stres!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 47,
+    "kata": "receh",
+    "definisi": "Uang kecil atau recehan. Juga berarti lucu tapi murahan.",
+    "contoh": "Lelucon receh tapi lucu.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 48,
+    "kata": "cringe",
+    "definisi": "Merasa malu atau tidak nyaman melihat sesuatu yang awkward atau memalukan.",
+    "contoh": "Video ini bikin cringe banget deh.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 49,
+    "kata": "sksd",
+    "definisi": "Sok Kenal Sok Dekat. Bersikap seolah-olah dekat padahal tidak.",
+    "contoh": "Jangan SKSD deh, kita kan nggak kenal!",
+    "kategori": "singkatan",
+    "era": "2000s"
+  }
+]

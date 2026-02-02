@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kamus Bahasa Gaul Indonesia Era 2000-an - Temukan arti kata-kata gaul dan slang populer">
+    <title>Kamus Milenial - Bahasa Gaul Era 2000-an</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>🔥 KAMUS MILENIAL 🔥</h1>
+                <p class="subtitle">Kamus Bahasa Gaul Era 2000-an</p>
+                <marquee class="marquee">✨ Selamat datang di Kamus Milenial! Temukan arti kata-kata gaul favorit kamu! ✨</marquee>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="search-section">
+                <h2>🔍 Cari Kata</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Ketik kata yang mau dicari... (contoh: alay, baper, galau)" autocomplete="off">
+                    <button id="searchBtn">Cari</button>
+                </div>
+                <div class="filter-section">
+                    <label for="categoryFilter">Filter Kategori:</label>
+                    <select id="categoryFilter">
+                        <option value="">Semua Kategori</option>
+                        <option value="adjektif">Adjektif</option>
+                        <option value="verba">Verba</option>
+                        <option value="nomina">Nomina</option>
+                        <option value="singkatan">Singkatan</option>
+                        <option value="interjeksi">Interjeksi</option>
+                        <option value="adverbia">Adverbia</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalWords">0</div>
+                    <div class="stat-label">Total Kata</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="searchResults">0</div>
+                    <div class="stat-label">Hasil Pencarian</div>
+                </div>
+            </div>
+
+            <div class="results-section" id="resultsSection">
+                <h2>📚 Daftar Kata</h2>
+                <div id="loadingIndicator" class="loading">Loading...</div>
+                <div id="wordList" class="word-list"></div>
+                <div id="noResults" class="no-results" style="display: none;">
+                    <p>Kata tidak ditemukan 😢</p>
+                    <p>Coba kata lain ya!</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>© 2024 Kamus Milenial - Bahasa Gaul Era 2000-an</p>
+                <p class="footer-links">
+                    <a href="#api-docs" id="apiDocsLink">📱 API Documentation</a> |
+                    <a href="https://github.com/kasihtaumamang/kamus-milenial" target="_blank">💻 GitHub</a>
+                </p>
+                <p class="footer-note">Made with ❤️ for the 2000s generation</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- API Documentation Modal -->
+    <div id="apiModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>📱 API Documentation</h2>
+            <div class="api-docs">
+                <h3>Base URL</h3>
+                <code class="code-block">https://your-app.netlify.app/api</code>
+                
+                <h3>Endpoints</h3>
+                
+                <div class="endpoint">
+                    <h4>GET /words</h4>
+                    <p>Mengambil semua kata dalam kamus</p>
+                    <code class="code-block">GET /api/words</code>
+                    <p><strong>Response:</strong></p>
+                    <pre class="code-block">{
+  "success": true,
+  "count": 50,
+  "data": [...]
+}</pre>
+                </div>
+
+                <div class="endpoint">
+                    <h4>GET /search?q={keyword}</h4>
+                    <p>Mencari kata berdasarkan keyword</p>
+                    <code class="code-block">GET /api/search?q=alay</code>
+                    <p><strong>Response:</strong></p>
+                    <pre class="code-block">{
+  "success": true,
+  "count": 1,
+  "query": "alay",
+  "data": [...]
+}</pre>
+                </div>
+
+                <div class="endpoint">
+                    <h4>GET /word/{id}</h4>
+                    <p>Mengambil detail kata berdasarkan ID</p>
+                    <code class="code-block">GET /api/word/1</code>
+                    <p><strong>Response:</strong></p>
+                    <pre class="code-block">{
+  "success": true,
+  "data": {
+    "id": 1,
+    "kata": "alay",
+    "definisi": "...",
+    "contoh": "...",
+    "kategori": "adjektif"
+  }
+}</pre>
+                </div>
+
+                <div class="endpoint">
+                    <h4>GET /random</h4>
+                    <p>Mengambil kata acak</p>
+                    <code class="code-block">GET /api/random</code>
+                    <p><strong>Response:</strong></p>
+                    <pre class="code-block">{
+  "success": true,
+  "data": {...}
+}</pre>
+                </div>
+
+                <h3>CORS</h3>
+                <p>API ini mendukung CORS, sehingga bisa digunakan dari aplikasi mobile atau web lainnya.</p>
+                
+                <h3>Rate Limiting</h3>
+                <p>Tidak ada rate limiting untuk saat ini. Gunakan dengan bijak! 😊</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
