@@ -437,3 +437,34 @@ pre.code-block {
     25% { transform: translateY(-5px) rotate(3deg); }
     75% { transform: translateY(-5px) rotate(-1deg); }
 }
+
+/* Phrase Card Styles */
+.phrase-card {
+    background: linear-gradient(135deg, #a8e6cf 0%, #74d99f 100%);
+}
+
+.phrase-translation {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+}
+
+.phrase-formal {
+    color: #2d3436;
+    margin-bottom: 8px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.phrase-slang {
+    color: #d63031;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.phrase-formal strong,
+.phrase-slang strong {
+    font-size: 1.1em;
+}

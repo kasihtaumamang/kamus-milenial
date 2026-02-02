@@ -47,14 +47,32 @@ function displayWords(words) {
     
     noResults.style.display = 'none';
     
-    wordList.innerHTML = words.map(word => `
-        <div class="word-card" data-id="${word.id}">
-            <div class="word-title">${word.kata}</div>
-            <div class="word-category">${word.kategori}</div>
-            <div class="word-definition">${word.definisi}</div>
-            <div class="word-example">"${word.contoh}"</div>
-        </div>
-    `).join('');
+    wordList.innerHTML = words.map(word => {
+        // Check if this is a phrase translation entry
+        if (word.frasa && word.terjemahan) {
+            return `
+                <div class="word-card phrase-card" data-id="${word.id}">
+                    <div class="word-title">${word.kata}</div>
+                    <div class="word-category">${word.kategori}</div>
+                    <div class="phrase-translation">
+                        <div class="phrase-formal">📝 Formal: <strong>"${word.frasa}"</strong></div>
+                        <div class="phrase-slang">💬 Gaul: <strong>"${word.terjemahan}"</strong></div>
+                    </div>
+                    <div class="word-definition">${word.definisi}</div>
+                    <div class="word-example">"${word.contoh}"</div>
+                </div>
+            `;
+        } else {
+            return `
+                <div class="word-card" data-id="${word.id}">
+                    <div class="word-title">${word.kata}</div>
+                    <div class="word-category">${word.kategori}</div>
+                    <div class="word-definition">${word.definisi}</div>
+                    <div class="word-example">"${word.contoh}"</div>
+                </div>
+            `;
+        }
+    }).join('');
 }
 
 // Update statistics
@@ -79,7 +97,9 @@ function searchWords(query) {
         filteredWords = allWords.filter(word => 
             word.kata.toLowerCase().includes(searchTerm) ||
             word.definisi.toLowerCase().includes(searchTerm) ||
-            word.contoh.toLowerCase().includes(searchTerm)
+            word.contoh.toLowerCase().includes(searchTerm) ||
+            (word.frasa && word.frasa.toLowerCase().includes(searchTerm)) ||
+            (word.terjemahan && word.terjemahan.toLowerCase().includes(searchTerm))
         );
     }
     
@@ -112,7 +132,9 @@ function applySearchAndFilter() {
         results = results.filter(word => 
             word.kata.toLowerCase().includes(searchTerm) ||
             word.definisi.toLowerCase().includes(searchTerm) ||
-            word.contoh.toLowerCase().includes(searchTerm)
+            word.contoh.toLowerCase().includes(searchTerm) ||
+            (word.frasa && word.frasa.toLowerCase().includes(searchTerm)) ||
+            (word.terjemahan && word.terjemahan.toLowerCase().includes(searchTerm))
         );
     }
     
