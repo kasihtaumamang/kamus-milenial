@@ -6,10 +6,24 @@
 
 Kamus lengkap bahasa gaul Indonesia era 2000-an dengan tampilan klasik yang nostalgis! 🎨✨
 
+## 📸 Screenshots
+
+### Homepage - Classic 2000s Design
+![Homepage](https://github.com/user-attachments/assets/7f203b00-4bb4-4cb2-9818-5404050ece85)
+
+### Search Functionality
+![Search](https://github.com/user-attachments/assets/9b9486b2-548c-4829-9a32-9c66339fc1cb)
+
+### Category Filter
+![Filter](https://github.com/user-attachments/assets/b40b9f6d-f0cd-4e43-bad7-acdc0dd95a2b)
+
+### API Documentation
+![API Docs](https://github.com/user-attachments/assets/37c16985-f10a-45b7-a32f-2607b310771f)
+
 ## 🌟 Fitur Utama
 
 - **Tampilan Klasik 2000-an**: Design yang nostalgis dengan gradient warna-warni, Comic Sans, dan animasi bounce!
-- **50+ Kata Gaul**: Koleksi lengkap kata-kata populer seperti alay, baper, galau, kepo, dan masih banyak lagi
+- **49 Kata Gaul**: Koleksi lengkap kata-kata populer seperti alay, baper, galau, kepo, dan masih banyak lagi
 - **Pencarian Real-time**: Cari kata dengan cepat menggunakan fitur pencarian yang responsif
 - **Filter Kategori**: Filter berdasarkan jenis kata (adjektif, verba, nomina, dll)
 - **API untuk Mobile**: RESTful API yang siap digunakan untuk aplikasi mobile
@@ -60,17 +74,8 @@ GET /api/words
 ```json
 {
   "success": true,
-  "count": 50,
-  "data": [
-    {
-      "id": 1,
-      "kata": "alay",
-      "definisi": "Anak Layangan atau Anak Lebay...",
-      "contoh": "Gaya rambutnya alay banget deh!",
-      "kategori": "adjektif",
-      "era": "2000s"
-    }
-  ]
+  "count": 49,
+  "data": [...]
 }
 ```
 
@@ -101,13 +106,7 @@ GET /api/word/1
 ```json
 {
   "success": true,
-  "data": {
-    "id": 1,
-    "kata": "alay",
-    "definisi": "...",
-    "contoh": "...",
-    "kategori": "adjektif"
-  }
+  "data": {...}
 }
 ```
 
@@ -123,6 +122,8 @@ GET /api/random
   "data": {...}
 }
 ```
+
+📖 **Full API Documentation**: See [API.md](API.md) for detailed documentation with examples in multiple languages.
 
 ## 🎨 Technology Stack
 
@@ -190,7 +191,7 @@ fetch('https://your-app.netlify.app/api/random')
 Edit `data/dictionary.json`:
 ```json
 {
-  "id": 51,
+  "id": 50,
   "kata": "kata-baru",
   "definisi": "Definisi kata baru",
   "contoh": "Contoh penggunaan",
@@ -202,6 +203,25 @@ Edit `data/dictionary.json`:
 ### Customizing Style
 
 Edit `public/style.css` untuk mengubah warna, font, atau animasi.
+
+### Testing API Locally
+
+```bash
+# Start dev server
+npm run dev
+
+# Test endpoints
+curl http://localhost:8888/api/words
+curl http://localhost:8888/api/search?q=alay
+curl http://localhost:8888/api/word/1
+curl http://localhost:8888/api/random
+```
+
+## 📚 Additional Documentation
+
+- **[API.md](API.md)** - Comprehensive API documentation with examples
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Detailed deployment guide
+- **[package.json](package.json)** - Project dependencies
 
 ## 🌐 Browser Support
 
