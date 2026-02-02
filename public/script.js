@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add some fun effects
     document.querySelectorAll('.stat-card').forEach(card => {
+        card.style.transition = 'transform 0.3s ease';
         card.addEventListener('mouseover', function() {
             this.style.transform = 'scale(1.05) rotate(2deg)';
         });
@@ -187,14 +188,6 @@ document.addEventListener('DOMContentLoaded', function() {
         card.addEventListener('mouseout', function() {
             this.style.transform = 'scale(1) rotate(0deg)';
         });
-    });
-});
-
-// Add transition to stat cards
-document.addEventListener('DOMContentLoaded', function() {
-    const statCards = document.querySelectorAll('.stat-card');
-    statCards.forEach(card => {
-        card.style.transition = 'transform 0.3s ease';
     });
 });
 

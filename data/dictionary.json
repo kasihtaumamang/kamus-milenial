@@ -122,7 +122,7 @@
   {
     "id": 16,
     "kata": "pdkt",
-    "definisi": "Pendekatan. Proses mendekati seseorang yang disukai dengan maksud menjalin hubungan.",
+    "definisi": "Pendekatan. Proses mendekati seseorang yang disukai dengan maksud menjalin hubungan romantis.",
     "contoh": "Dia lagi PDKT sama temen aku.",
     "kategori": "nomina",
     "era": "2000s"
@@ -193,14 +193,6 @@
   },
   {
     "id": 25,
-    "kata": "pdkt",
-    "definisi": "Pendekatan. Masa awal mengenal seseorang dengan tujuan menjalin hubungan lebih serius.",
-    "contoh": "Gue lagi PDKT nih sama dia.",
-    "kategori": "verba",
-    "era": "2000s"
-  },
-  {
-    "id": 26,
     "kata": "badung",
     "definisi": "Nakal atau bandel, sering digunakan untuk menggambarkan anak yang tidak nurut.",
     "contoh": "Anaknya badung banget, nggak mau dibilangin.",
@@ -208,7 +200,7 @@
     "era": "2000s"
   },
   {
-    "id": 27,
+    "id": 26,
     "kata": "kece",
     "definisi": "Keren atau bagus. Digunakan untuk memuji penampilan atau sesuatu yang menarik.",
     "contoh": "Bajunya kece banget!",
@@ -216,7 +208,7 @@
     "era": "2000s"
   },
   {
-    "id": 28,
+    "id": 27,
     "kata": "curcol",
     "definisi": "Curahan Hati Colongan. Menceritakan masalah pribadi secara spontan.",
     "contoh": "Maaf ya tadi curcol, lagi banyak masalah nih.",
@@ -224,7 +216,7 @@
     "era": "2000s"
   },
   {
-    "id": 29,
+    "id": 28,
     "kata": "ribet",
     "definisi": "Rumit atau merepotkan. Menggambarkan sesuatu yang susah atau membingungkan.",
     "contoh": "Jangan dibikin ribet dong, simple aja!",
@@ -232,7 +224,7 @@
     "era": "2000s"
   },
   {
-    "id": 30,
+    "id": 29,
     "kata": "ngambek",
     "definisi": "Merajuk atau marah-marah kecil karena tidak senang dengan sesuatu.",
     "contoh": "Jangan ngambek dong, nanti aku beliin es krim deh.",
@@ -240,7 +232,7 @@
     "era": "2000s"
   },
   {
-    "id": 31,
+    "id": 30,
     "kata": "cabe-cabean",
     "definisi": "Sebutan untuk perempuan yang berpakaian terbuka atau dipandang norak.",
     "contoh": "Cara dandanannya kayak cabe-cabean.",
@@ -248,7 +240,7 @@
     "era": "2000s"
   },
   {
-    "id": 32,
+    "id": 31,
     "kata": "ganteng",
     "definisi": "Tampan atau menarik secara fisik untuk laki-laki.",
     "contoh": "Pacar kamu ganteng banget!",
@@ -256,7 +248,7 @@
     "era": "2000s"
   },
   {
-    "id": 33,
+    "id": 32,
     "kata": "cantik",
     "definisi": "Indah atau menarik secara fisik untuk perempuan.",
     "contoh": "Dia cantik banget, pantas banyak yang suka.",
@@ -264,7 +256,7 @@
     "era": "2000s"
   },
   {
-    "id": 34,
+    "id": 33,
     "kata": "naksir",
     "definisi": "Mulai tertarik atau jatuh cinta pada seseorang.",
     "contoh": "Aku naksir sama dia dari pertama kali ketemu.",
@@ -272,7 +264,7 @@
     "era": "2000s"
   },
   {
-    "id": 35,
+    "id": 34,
     "kata": "mager",
     "definisi": "Malas Gerak. Merasa sangat malas untuk melakukan aktivitas fisik.",
     "contoh": "Hari Minggu bikin mager, pengennya tiduran aja.",
@@ -280,7 +272,7 @@
     "era": "2000s"
   },
   {
-    "id": 36,
+    "id": 35,
     "kata": "ngenes",
     "definisi": "Menyedihkan atau kasihan. Menggambarkan kondisi yang memprihatinkan.",
     "contoh": "Nasibnya ngenes banget ya.",
@@ -288,7 +280,7 @@
     "era": "2000s"
   },
   {
-    "id": 37,
+    "id": 36,
     "kata": "bokep",
     "definisi": "Film Biru atau konten dewasa. Singkatan dari Blue Film dalam bahasa Jawa.",
     "contoh": "Jangan nonton bokep, nggak baik!",
@@ -296,7 +288,7 @@
     "era": "2000s"
   },
   {
-    "id": 38,
+    "id": 37,
     "kata": "nongkrong",
     "definisi": "Berkumpul atau menghabiskan waktu bersama teman di suatu tempat.",
     "contoh": "Yuk nongkrong di cafe!",
@@ -304,7 +296,7 @@
     "era": "2000s"
   },
   {
-    "id": 39,
+    "id": 38,
     "kata": "gaul",
     "definisi": "Pergaulan atau berhubungan sosial dengan orang lain. Juga berarti trendi atau kekinian.",
     "contoh": "Dia orangnya gaul, kenal sama banyak orang.",
@@ -312,7 +304,7 @@
     "era": "2000s"
   },
   {
-    "id": 40,
+    "id": 39,
     "kata": "jaman",
     "definisi": "Zaman atau periode waktu tertentu.",
     "contoh": "Jaman sekarang udah canggih banget.",
@@ -320,7 +312,7 @@
     "era": "2000s"
   },
   {
-    "id": 41,
+    "id": 40,
     "kata": "ciyus",
     "definisi": "Serius. Kata serius yang diplesetkan dengan gaya alay.",
     "contoh": "Ciyus lo bilang gitu? Miapah?",
@@ -328,7 +320,7 @@
     "era": "2000s"
   },
   {
-    "id": 42,
+    "id": 41,
     "kata": "miapah",
     "definisi": "Mengapa atau kenapa. Kata tanya yang diplesetkan dengan gaya alay.",
     "contoh": "Miapah kamu marah?",
@@ -336,7 +328,7 @@
     "era": "2000s"
   },
   {
-    "id": 43,
+    "id": 42,
     "kata": "kamsudh",
     "definisi": "Maksud. Kata maksud yang diplesetkan dengan gaya alay.",
     "contoh": "Kamsudh lo apa sih?",
@@ -344,7 +336,7 @@
     "era": "2000s"
   },
   {
-    "id": 44,
+    "id": 43,
     "kata": "pren",
     "definisi": "Friend atau teman. Cara menyebut teman dengan gaya gaul.",
     "contoh": "Pren, jangan lupa dateng ya!",
@@ -352,7 +344,7 @@
     "era": "2000s"
   },
   {
-    "id": 45,
+    "id": 44,
     "kata": "anjay",
     "definisi": "Ekspresi kaget, kagum, atau terkejut dengan sesuatu.",
     "contoh": "Anjay, keren banget mobilnya!",
@@ -360,7 +352,7 @@
     "era": "2000s"
   },
   {
-    "id": 46,
+    "id": 45,
     "kata": "woles",
     "definisi": "Slow atau santai. Tidak terburu-buru atau tetap tenang.",
     "contoh": "Woles aja, masih ada waktu kok.",
@@ -368,7 +360,7 @@
     "era": "2000s"
   },
   {
-    "id": 47,
+    "id": 46,
     "kata": "santuy",
     "definisi": "Santai. Bersikap tenang dan tidak tegang.",
     "contoh": "Santuy aja, jangan stres!",
@@ -376,7 +368,7 @@
     "era": "2000s"
   },
   {
-    "id": 48,
+    "id": 47,
     "kata": "receh",
     "definisi": "Uang kecil atau recehan. Juga berarti lucu tapi murahan.",
     "contoh": "Lelucon receh tapi lucu.",
@@ -384,7 +376,7 @@
     "era": "2000s"
   },
   {
-    "id": 49,
+    "id": 48,
     "kata": "cringe",
     "definisi": "Merasa malu atau tidak nyaman melihat sesuatu yang awkward atau memalukan.",
     "contoh": "Video ini bikin cringe banget deh.",
@@ -392,7 +384,7 @@
     "era": "2000s"
   },
   {
-    "id": 50,
+    "id": 49,
     "kata": "sksd",
     "definisi": "Sok Kenal Sok Dekat. Bersikap seolah-olah dekat padahal tidak.",
     "contoh": "Jangan SKSD deh, kita kan nggak kenal!",
