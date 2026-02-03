@@ -550,5 +550,317 @@
     "contoh": "Formal: 'sama-sama' - Gaul: 'sm2'",
     "kategori": "frasa",
     "era": "2000s"
+  },
+  {
+    "id": 66,
+    "kata": "gg",
+    "definisi": "Gagal atau tidak berhasil. Berasal dari kata 'gagal' yang disingkat.",
+    "contoh": "Ujiannya GG deh, nggak belajar soalnya.",
+    "kategori": "singkatan",
+    "era": "2000s"
+  },
+  {
+    "id": 67,
+    "kata": "modus",
+    "definisi": "Modus operandi atau cara seseorang dalam mendekati orang yang disukai dengan cara tidak langsung.",
+    "contoh": "Dia punya modus nih buat deketin kamu.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 68,
+    "kata": "cupu",
+    "definisi": "Culun atau kampungan. Tidak keren atau ketinggalan zaman.",
+    "contoh": "Gaya berpakaiannya cupu banget.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 69,
+    "kata": "cekak",
+    "definisi": "Tidak punya uang atau sedang bokek.",
+    "contoh": "Maaf ya lagi cekak, nggak bisa traktir.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 70,
+    "kata": "bokek",
+    "definisi": "Tidak punya uang atau sedang miskin.",
+    "contoh": "Lagi bokek nih, belum gajian.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 71,
+    "kata": "caper",
+    "definisi": "Cari Perhatian. Mencoba menarik perhatian orang lain dengan berbagai cara.",
+    "contoh": "Dia caper banget di depan gebetannya.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 72,
+    "kata": "gokil",
+    "definisi": "Gila atau keren banget. Ekspresi kekaguman terhadap sesuatu.",
+    "contoh": "Permainannya gokil abis!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 73,
+    "kata": "keren",
+    "definisi": "Bagus, menarik, atau mengesankan.",
+    "contoh": "Motornya keren banget!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 74,
+    "kata": "jomblo",
+    "definisi": "Tidak punya pacar atau masih sendiri.",
+    "contoh": "Masih jomblo nih, ada yang mau kenalan?",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 75,
+    "kata": "ngakak",
+    "definisi": "Tertawa terbahak-bahak atau sangat lucu.",
+    "contoh": "Lihat video itu bikin ngakak!",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 76,
+    "kata": "bingung",
+    "definisi": "Tidak tahu harus bagaimana atau kebingungan.",
+    "contoh": "Aku bingung mau pilih yang mana.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 77,
+    "kata": "nyantai",
+    "definisi": "Bersantai atau tidak melakukan aktivitas berat.",
+    "contoh": "Akhir pekan cuma nyantai di rumah aja.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 78,
+    "kata": "ngacir",
+    "definisi": "Pergi dengan cepat atau kabur.",
+    "contoh": "Udah mau hujan nih, ngacir yuk!",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 79,
+    "kata": "parah",
+    "definisi": "Sangat buruk atau ekstrim. Bisa juga berarti sangat keren tergantung konteks.",
+    "contoh": "Macetnya parah banget hari ini.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 80,
+    "kata": "jago",
+    "definisi": "Mahir atau ahli dalam sesuatu.",
+    "contoh": "Dia jago main gitar.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 81,
+    "kata": "cuek",
+    "definisi": "Acuh tak acuh atau tidak peduli.",
+    "contoh": "Dia cuek aja kalau dimarahin.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 82,
+    "kata": "ngebet",
+    "definisi": "Sangat ingin atau menginginkan sesuatu dengan sangat.",
+    "contoh": "Dia ngebet banget pengen motor baru.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 83,
+    "kata": "mantap",
+    "definisi": "Bagus, keren, atau memuaskan.",
+    "contoh": "Mantap! Akhirnya lulus ujian.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 84,
+    "kata": "pede",
+    "definisi": "Percaya diri. Berasal dari kata 'percaya diri' yang disingkat.",
+    "contoh": "Harus pede kalau presentasi.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 85,
+    "kata": "norak",
+    "definisi": "Kampungan atau tidak berkelas dalam penampilan atau perilaku.",
+    "contoh": "Bajunya norak banget, warnanya terlalu rame.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 86,
+    "kata": "narsis",
+    "definisi": "Narsistik atau terlalu mencintai diri sendiri. Suka foto-foto diri.",
+    "contoh": "Dia narsis banget, tiap ke mana-mana harus foto.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 87,
+    "kata": "gengsi",
+    "definisi": "Harga diri atau gengsi. Tidak mau kalah atau merasa malu.",
+    "contoh": "Gengsi dong naik angkot, maunya naik mobil.",
+    "kategori": "nomina",
+    "era": "2000s"
+  },
+  {
+    "id": 88,
+    "kata": "males",
+    "definisi": "Malas atau tidak ada semangat untuk melakukan sesuatu.",
+    "contoh": "Males banget ke sekolah hari ini.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 89,
+    "kata": "senang",
+    "definisi": "Bahagia atau merasa gembira.",
+    "contoh": "Senang banget akhirnya bisa ketemu lagi.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 90,
+    "kata": "sedih",
+    "definisi": "Merasa duka atau tidak bahagia.",
+    "contoh": "Sedih banget pas dia pergi.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 91,
+    "kata": "heboh",
+    "definisi": "Ramai atau menggemparkan.",
+    "contoh": "Beritanya heboh banget di sosmed.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 92,
+    "kata": "ngantuk",
+    "definisi": "Mengantuk atau ingin tidur.",
+    "contoh": "Ngantuk banget, kemarin begadang soalnya.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 93,
+    "kata": "ngomong",
+    "definisi": "Berbicara atau mengobrol.",
+    "contoh": "Ngomong apa sih kalian?",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 94,
+    "kata": "ngobrol",
+    "definisi": "Berbincang atau mengobrol santai.",
+    "contoh": "Yuk ngobrol sambil ngopi.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 95,
+    "kata": "ketawa",
+    "definisi": "Tertawa atau tertawa lepas.",
+    "contoh": "Ketawa terus nonton film komedi.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 96,
+    "kata": "nangis",
+    "definisi": "Menangis atau mengeluarkan air mata.",
+    "contoh": "Nangis nonton film sedih.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 97,
+    "kata": "cape",
+    "definisi": "Capek atau lelah setelah melakukan aktivitas.",
+    "contoh": "Cape banget habis olahraga.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 98,
+    "kata": "marah",
+    "definisi": "Merasa kesal atau jengkel terhadap sesuatu.",
+    "contoh": "Marah banget kalau dibohongin.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 99,
+    "kata": "romantis",
+    "definisi": "Penuh cinta atau perasaan romantis.",
+    "contoh": "Dia cowok yang romantis banget.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 100,
+    "kata": "setia",
+    "definisi": "Loyal atau tidak berkhianat dalam hubungan.",
+    "contoh": "Dia pacar yang setia.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 101,
+    "kata": "selingkuh",
+    "definisi": "Berkhianat atau menjalin hubungan dengan orang lain saat sudah punya pacar.",
+    "contoh": "Dia selingkuh di belakang pacarnya.",
+    "kategori": "verba",
+    "era": "2000s"
+  },
+  {
+    "id": 102,
+    "kata": "sabar",
+    "definisi": "Tenang dan tidak terburu-buru dalam menghadapi sesuatu.",
+    "contoh": "Sabar ya, pasti ada jalan keluarnya.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 103,
+    "kata": "ikhlas",
+    "definisi": "Tulus dan rela tanpa pamrih.",
+    "contoh": "Harus ikhlas kalau dia udah milih yang lain.",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  {
+    "id": 104,
+    "kata": "iri",
+    "definisi": "Cemburu atau merasa tidak senang melihat keberhasilan orang lain.",
+    "contoh": "Iri lihat temannya beli HP baru.",
+    "kategori": "adjektif",
+    "era": "2000s"
   }
 ]

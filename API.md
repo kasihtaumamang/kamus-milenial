@@ -37,7 +37,7 @@ Retrieve all dictionary entries.
 ```json
 {
   "success": true,
-  "count": 49,
+  "count": 104,
   "data": [
     {
       "id": 1,
@@ -96,19 +96,21 @@ if let url = URL(string: "https://your-app.netlify.app/api/words") {
 
 ### 2. Search Words
 
-Search for words by keyword in word, definition, or example.
+Search for words by keyword in word, definition, or example. Automatically provides suggestions when no results are found.
 
 **Endpoint:** `GET /api/search`
 
 **Query Parameters:**
 - `q` (required): Search keyword
+- `generate` (optional): Set to `false` to disable auto-suggestions (default: `true`)
 
 **Example Request:**
 ```
 GET /api/search?q=alay
+GET /api/search?q=unknown&generate=true
 ```
 
-**Response:**
+**Response (Results Found):**
 ```json
 {
   "success": true,
@@ -124,6 +126,29 @@ GET /api/search?q=alay
       "era": "2000s"
     }
   ]
+}
+```
+
+**Response (No Results - Auto-Suggestions):**
+```json
+{
+  "success": true,
+  "query": "galez",
+  "count": 0,
+  "data": [],
+  "generated": true,
+  "suggestions": [
+    {
+      "id": 6,
+      "kata": "galau",
+      "definisi": "Bingung, gelisah...",
+      "contoh": "...",
+      "kategori": "adjektif",
+      "era": "2000s"
+    }
+  ],
+  "message": "Kata \"galez\" tidak ditemukan. Berikut adalah kata-kata yang mungkin mirip atau terkait.",
+  "hint": "Gunakan /api/generate?word=galez untuk mendapatkan entry yang di-generate otomatis."
 }
 ```
 
@@ -236,6 +261,111 @@ async function getWordOfTheDay() {
   const data = await response.json();
   return data.data;
 }
+```
+
+### 5. Generate Word Entry
+
+Generate or look up a word. If the word doesn't exist, automatically generates an entry with related suggestions.
+
+**Endpoint:** `GET /api/generate`
+
+**Query Parameters:**
+- `word` or `q` (required): Word to generate or look up
+
+**Example Request:**
+```
+GET /api/generate?word=gahar
+GET /api/generate?q=alay
+```
+
+**Response (Word Found):**
+```json
+{
+  "success": true,
+  "found": true,
+  "query": "alay",
+  "data": {
+    "id": 1,
+    "kata": "alay",
+    "definisi": "Anak Layangan atau Anak Lebay...",
+    "contoh": "Gaya rambutnya alay banget deh!",
+    "kategori": "adjektif",
+    "era": "2000s"
+  },
+  "message": "Word found in dictionary"
+}
+```
+
+**Response (Word Not Found - Auto-Generated):**
+```json
+{
+  "success": true,
+  "found": false,
+  "query": "gahar",
+  "data": {
+    "id": null,
+    "kata": "gahar",
+    "definisi": "Kata \"gahar\" belum ada di kamus. Ini adalah hasil generate otomatis...",
+    "contoh": "Contoh penggunaan: \"Lagi gahar nih.\"",
+    "kategori": "unknown",
+    "era": "2000s",
+    "generated": true,
+    "suggestions": [
+      {
+        "kata": "galau",
+        "definisi": "Bingung, gelisah..."
+      }
+    ]
+  },
+  "relatedWords": [...],
+  "message": "Word not found. Auto-generated entry with suggestions."
+}
+```
+
+**Status Codes:**
+- 200: Success
+- 400: Missing query parameter
+- 500: Server error
+
+**Example Usage:**
+
+```javascript
+// JavaScript - Generate or lookup word
+async function generateWord(word) {
+  const response = await fetch(`https://your-app.netlify.app/api/generate?word=${encodeURIComponent(word)}`);
+  const data = await response.json();
+  
+  if (data.found) {
+    console.log('Word exists:', data.data);
+  } else {
+    console.log('Auto-generated:', data.data);
+    console.log('Suggestions:', data.relatedWords);
+  }
+  
+  return data;
+}
+```
+
+```python
+# Python - Generate word with fallback
+import requests
+
+def generate_word(word):
+    url = f'https://your-app.netlify.app/api/generate?word={word}'
+    response = requests.get(url)
+    data = response.json()
+    
+    if data['found']:
+        print(f"Word found: {data['data']['kata']}")
+    else:
+        print(f"Auto-generated: {data['data']['kata']}")
+        if data.get('relatedWords'):
+            print(f"Related words: {len(data['relatedWords'])}")
+    
+    return data
+
+# Example
+result = generate_word('gahar')
 ```
 
 ## Error Handling

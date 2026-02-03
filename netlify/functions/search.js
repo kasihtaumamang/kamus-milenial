@@ -1,6 +1,20 @@
 // API Function: Search words
 const words = require('../../data/dictionary.json');
 
+// Generate suggestions for words not found
+function generateSuggestions(query) {
+  const queryLower = query.toLowerCase();
+  const searchLength = Math.min(queryLower.length, 3);
+  
+  // Find similar words by partial matching
+  const suggestions = words.filter(word => 
+    word.kata.toLowerCase().includes(queryLower.substring(0, searchLength)) ||
+    queryLower.includes(word.kata.toLowerCase().substring(0, searchLength))
+  ).slice(0, 5);
+  
+  return suggestions;
+}
+
 exports.handler = async (event, context) => {
   // Set CORS headers
   const headers = {
@@ -22,6 +36,7 @@ exports.handler = async (event, context) => {
   try {
     // Get search query from URL parameters
     const query = event.queryStringParameters?.q || '';
+    const autoGenerate = event.queryStringParameters?.generate !== 'false'; // Enable by default
     
     if (!query) {
       return {
@@ -44,6 +59,26 @@ exports.handler = async (event, context) => {
       (word.frasa && word.frasa.toLowerCase().includes(searchTerm)) ||
       (word.terjemahan && word.terjemahan.toLowerCase().includes(searchTerm))
     );
+
+    // If no results and auto-generation is enabled, provide suggestions
+    if (results.length === 0 && autoGenerate) {
+      const suggestions = generateSuggestions(query);
+      
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          success: true,
+          query: query,
+          count: 0,
+          data: [],
+          generated: true,
+          suggestions: suggestions,
+          message: `Kata "${query}" tidak ditemukan. Berikut adalah kata-kata yang mungkin mirip atau terkait.`,
+          hint: `Gunakan /api/generate?word=${encodeURIComponent(query)} untuk mendapatkan entry yang di-generate otomatis.`
+        })
+      };
+    }
 
     return {
       statusCode: 200,

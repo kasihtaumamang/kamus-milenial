@@ -23,9 +23,10 @@ Kamus lengkap bahasa gaul Indonesia era 2000-an dengan tampilan klasik yang nost
 ## 🌟 Fitur Utama
 
 - **Tampilan Klasik 2000-an**: Design yang nostalgis dengan gradient warna-warni, Comic Sans, dan animasi bounce!
-- **49 Kata Gaul**: Koleksi lengkap kata-kata populer seperti alay, baper, galau, kepo, dan masih banyak lagi
+- **104 Kata Gaul**: Koleksi lengkap kata-kata populer seperti alay, baper, galau, kepo, gokil, narsis, dan masih banyak lagi
 - **Pencarian Real-time**: Cari kata dengan cepat menggunakan fitur pencarian yang responsif
 - **Filter Kategori**: Filter berdasarkan jenis kata (adjektif, verba, nomina, dll)
+- **Auto-Generate**: Sistem otomatis untuk generate kata yang belum ada dengan saran kata terkait
 - **API untuk Mobile**: RESTful API yang siap digunakan untuk aplikasi mobile
 - **Responsive Design**: Tampil sempurna di desktop, tablet, dan smartphone
 - **Netlify Ready**: Siap deploy dengan satu klik!
@@ -74,7 +75,7 @@ GET /api/words
 ```json
 {
   "success": true,
-  "count": 49,
+  "count": 104,
   "data": [...]
 }
 ```
@@ -120,6 +121,41 @@ GET /api/random
 {
   "success": true,
   "data": {...}
+}
+```
+
+#### 5. Generate Word Entry (New!)
+```http
+GET /api/generate?word=gahar
+```
+
+**Parameters:**
+- `word` or `q` (required): Word to generate or look up
+
+**Response (Word Found):**
+```json
+{
+  "success": true,
+  "found": true,
+  "query": "alay",
+  "data": {...},
+  "message": "Word found in dictionary"
+}
+```
+
+**Response (Word Not Found - Auto-Generated):**
+```json
+{
+  "success": true,
+  "found": false,
+  "query": "gahar",
+  "data": {
+    "kata": "gahar",
+    "definisi": "Kata \"gahar\" belum ada di kamus...",
+    "generated": true,
+    "suggestions": [...]
+  },
+  "message": "Word not found. Auto-generated entry with suggestions."
 }
 ```
 
