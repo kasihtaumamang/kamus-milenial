@@ -4,11 +4,12 @@ const words = require('../../data/dictionary.json');
 // Generate suggestions for words not found
 function generateSuggestions(query) {
   const queryLower = query.toLowerCase();
+  const searchLength = Math.min(queryLower.length, 3);
   
   // Find similar words by partial matching
   const suggestions = words.filter(word => 
-    word.kata.toLowerCase().includes(queryLower.substring(0, 3)) ||
-    queryLower.includes(word.kata.toLowerCase().substring(0, 3))
+    word.kata.toLowerCase().includes(queryLower.substring(0, searchLength)) ||
+    queryLower.includes(word.kata.toLowerCase().substring(0, searchLength))
   ).slice(0, 5);
   
   return suggestions;

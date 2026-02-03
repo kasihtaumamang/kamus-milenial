@@ -5,11 +5,12 @@ const words = require('../../data/dictionary.json');
 function generateWordSuggestions(query) {
   const suggestions = [];
   const queryLower = query.toLowerCase();
+  const searchLength = Math.min(queryLower.length, 3);
   
   // Pattern 1: Find similar words by partial matching
   const partialMatches = words.filter(word => 
-    word.kata.toLowerCase().includes(queryLower.substring(0, 3)) ||
-    queryLower.includes(word.kata.toLowerCase().substring(0, 3))
+    word.kata.toLowerCase().includes(queryLower.substring(0, searchLength)) ||
+    queryLower.includes(word.kata.toLowerCase().substring(0, searchLength))
   ).slice(0, 3);
   
   suggestions.push(...partialMatches);
@@ -23,12 +24,12 @@ function generateWordSuggestions(query) {
     suggestions.push(...categoryMatches);
   }
   
-  // Pattern 3: Generate a generic entry for unknown words
+  // Pattern 3: Generate a generic entry for unknown words (preserve original casing)
   const generatedEntry = {
     id: null,
-    kata: queryLower,
-    definisi: `Kata "${queryLower}" belum ada di kamus. Ini adalah hasil generate otomatis. Kata ini mungkin merupakan bahasa gaul baru atau variasi ejaan.`,
-    contoh: `Contoh penggunaan: "Lagi ${queryLower} nih."`,
+    kata: query,
+    definisi: `Kata "${query}" belum ada di kamus. Ini adalah hasil generate otomatis. Kata ini mungkin merupakan bahasa gaul baru atau variasi ejaan.`,
+    contoh: `Contoh penggunaan: "Lagi ${query} nih."`,
     kategori: "unknown",
     era: "2000s",
     generated: true,
