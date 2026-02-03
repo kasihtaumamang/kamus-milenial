@@ -1,6 +1,5 @@
 // API Function: Search words
-const fs = require('fs');
-const path = require('path');
+const words = require('../../data/dictionary.json');
 
 exports.handler = async (event, context) => {
   // Set CORS headers
@@ -35,11 +34,6 @@ exports.handler = async (event, context) => {
         })
       };
     }
-
-    // Read dictionary data
-    const dataPath = path.join(__dirname, '../../data/dictionary.json');
-    const data = fs.readFileSync(dataPath, 'utf8');
-    const words = JSON.parse(data);
 
     // Search in kata, definisi, contoh, frasa, and terjemahan fields
     const searchTerm = query.toLowerCase();

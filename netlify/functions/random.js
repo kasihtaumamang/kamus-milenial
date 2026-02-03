@@ -1,6 +1,5 @@
 // API Function: Get random word
-const fs = require('fs');
-const path = require('path');
+const words = require('../../data/dictionary.json');
 
 exports.handler = async (event, context) => {
   // Set CORS headers
@@ -21,11 +20,6 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    // Read dictionary data
-    const dataPath = path.join(__dirname, '../../data/dictionary.json');
-    const data = fs.readFileSync(dataPath, 'utf8');
-    const words = JSON.parse(data);
-
     // Get random word
     const randomIndex = Math.floor(Math.random() * words.length);
     const randomWord = words[randomIndex];

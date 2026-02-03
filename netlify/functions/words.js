@@ -1,6 +1,5 @@
 // API Function: Get all words
-const fs = require('fs');
-const path = require('path');
+const words = require('../../data/dictionary.json');
 
 exports.handler = async (event, context) => {
   // Set CORS headers
@@ -21,11 +20,6 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    // Read dictionary data
-    const dataPath = path.join(__dirname, '../../data/dictionary.json');
-    const data = fs.readFileSync(dataPath, 'utf8');
-    const words = JSON.parse(data);
-
     return {
       statusCode: 200,
       headers,
@@ -36,7 +30,7 @@ exports.handler = async (event, context) => {
       })
     };
   } catch (error) {
-    console.error('Error reading dictionary:', error);
+    console.error('Error loading dictionary:', error);
     return {
       statusCode: 500,
       headers,
