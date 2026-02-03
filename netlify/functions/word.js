@@ -1,6 +1,5 @@
 // API Function: Get word by ID
-const fs = require('fs');
-const path = require('path');
+const words = require('../../data/dictionary.json');
 
 exports.handler = async (event, context) => {
   // Set CORS headers
@@ -36,11 +35,6 @@ exports.handler = async (event, context) => {
         })
       };
     }
-
-    // Read dictionary data
-    const dataPath = path.join(__dirname, '../../data/dictionary.json');
-    const data = fs.readFileSync(dataPath, 'utf8');
-    const words = JSON.parse(data);
 
     // Find word by ID
     const word = words.find(w => w.id === id);
